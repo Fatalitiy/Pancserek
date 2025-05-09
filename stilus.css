@@ -39,11 +39,13 @@ body {
 
 .szoveg {
     width: 100%;
+    background-color: beige;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 .nav-container {
     display: grid;
     text-align: center;
-
     margin-bottom: 20px;
     gap: 20px;
 }
@@ -81,6 +83,7 @@ body {
     display: grid;
     text-align: center;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 h1 {
