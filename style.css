@@ -58,6 +58,10 @@ h1 {
     color: rgb(17, 17, 17);
     margin-top: 0;
 }
+h2 {
+    font-size: 30px;
+    margin: 3px;
+}
 
 p {
     color: rgb(17, 17, 17);
