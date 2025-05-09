@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #020202;
-    background-image: url("kepek/blue-clouds-day-fluffy-53594.jpeg");
+    background-color: #b6e438ef;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +68,7 @@ body {
 }
 
 .footer a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: grid;
 }
@@ -87,16 +86,17 @@ h1 {
     color: rgb(17, 17, 17);
     margin-top: 0;
     text-align: center;
+    font-size: 37px
 }
 
 p {
     color: rgb(17, 17, 17);
-    font-size: 32px;
+    font-size: 30px;
 }
 
 ul {
     color: black;
-    font-size: 24px;
+    font-size: 37px;
 }
 
 .grid {
@@ -143,7 +143,7 @@ ul {
     }
 
     .kep {
-        height: 150px;
+        height: 200px;
     }
 }
 
@@ -166,6 +166,6 @@ ul {
     }
 
     .grid-kep {
-        height: 120px;
+        height: 160px;
     }
 }
