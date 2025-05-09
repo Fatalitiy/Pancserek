@@ -40,10 +40,11 @@ body {
 
 .szoveg {
     width: 95%;
-    background-color: rgb(13, 207, 241);
+    background-color: rgba(245, 245, 220, 0.644);
     border-radius: 5px;
     margin-top: 10px;
     font-size: 15;
+    padding:10px;
 }
 .nav-container {
     display: grid;
@@ -78,9 +79,9 @@ body {
     display: grid;
 }
 
-.kep img{
+.kep img {
     width: 100%;
-    height: 300px;
+    
     max-width: 600px;
     display: grid;
     text-align: center;
