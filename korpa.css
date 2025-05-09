@@ -39,7 +39,7 @@ body {
 
 .szoveg {
     width: 100;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.644);
     border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
