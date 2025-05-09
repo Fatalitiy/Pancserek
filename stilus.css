@@ -57,8 +57,13 @@ body {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
+    
 }
- 
+
+.navok a:hover {
+    background-color: rgba(80, 185, 255, 0.3)
+}
+
 .navok a {
     color: #000000;
     font-weight: bold;
