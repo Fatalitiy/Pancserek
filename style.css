@@ -114,7 +114,7 @@ p {
     }
 
     .kep {
-        height: 150px;
+        width: 100%;
     }
 }
 
@@ -137,6 +137,6 @@ p {
     }
 
     .grid-kep {
-        height: 120px;
+        width: 100%;
     }
 }
