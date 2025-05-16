@@ -54,7 +54,7 @@ body {
 .navok {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(112, 176, 219);
+    background-color: rgba(112, 176, 219, 0.671);
     text-align: center;
     padding: 10px;
     border-radius: 40px;
