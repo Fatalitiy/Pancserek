@@ -53,8 +53,9 @@ body {
     margin: 40px;
     border-radius: 40px;
 }
-img:hover {
-    transform: scale(1.1);
+.grid-kep:hover {
+    transform: scale(1.08);
+    border: #020202;
 }
 
 h1 {
@@ -74,7 +75,7 @@ p {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 60px;
 }
 
 .grid-item {
