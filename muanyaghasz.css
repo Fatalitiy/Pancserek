@@ -38,6 +38,7 @@ body {
 
 .szoveg {
     width: 100%;
+    background-color: rgba(245, 245, 220, 0.644);
 }
 .nav-container {
     display: grid;
