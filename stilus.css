@@ -56,14 +56,14 @@ body {
 .navok {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgba(66, 177, 250, 0.3);
+    background-color: rgb(112, 176, 219);
     text-align: center;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 40px;
 }
  
 .navok a {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
     text-align: center; 
