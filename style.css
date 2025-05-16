@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #020202;
-    background-image: url("kepek/termeszethatter.jpg");
+    background-image: url("kepek/blue-clouds-day-fluffy-53594.jpeg"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: rgb(0, 0, 0);
     min-height: 100vh;
     margin: 0px;
     
@@ -39,8 +38,8 @@ body {
 
 .szoveg {
     width: 100%;
-    background-color: beige;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
     margin-top: 10px;
     padding: 10px;
 }
@@ -51,8 +50,8 @@ body {
     max-width: 600px;
     display: grid;
     text-align: center;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 40px;
+    border-radius: 40px;
 }
 img:hover {
     transform: scale(1.1);
@@ -90,18 +89,18 @@ p {
     margin-bottom: 10px;
     display: grid;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 40px;
 }
 
 .grid-item a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     display: grid;
 }
 
 .footer {
-    background-color: rgba(243, 212, 38, 0.3);
-    border-radius: 8px;
+    background-color: rgb(145, 209, 243);
+    border-radius: 40px;
     padding: 15px;
     text-align: center;
     font-weight: bold;
