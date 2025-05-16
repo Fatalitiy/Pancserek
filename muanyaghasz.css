@@ -179,9 +179,23 @@ ul {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .fo {
+        grid-template-columns: 1fr;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .kep {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .header {
-        font-size: 24px;
+        font-size: 20px;
         padding: 10px;
     }
 
@@ -190,29 +204,11 @@ ul {
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     p {
-        font-size: 16px;
-    }
-
-    ul {
-        font-size: 18px;
-    }
-
-    .navok {
-        grid-template-columns: 1fr;
-        padding: 5px;
-    }
-
-    .grid-kep img {
-        height: auto;
-        max-width: 100%;
-    }
-
-    .kep img {
-        margin-top: 30px;
+        font-size: 14px;
     }
 
     .grid-kep {
