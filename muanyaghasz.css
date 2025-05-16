@@ -176,36 +176,43 @@ ul {
 @media screen and (max-width: 768px) {
     .fo {
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .grid {
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .kep {
         width: 100%;
+        padding: 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .header {
         font-size: 20px;
-        padding: 10px;
+        padding: 20px;
     }
 
     .content {
         padding: 10px;
+        padding: 20px;
     }
 
     h1 {
         font-size: 24px;
+        padding: 20px;
     }
 
     p {
         font-size: 14px;
+        padding: 20px;
     }
 
     .grid-kep {
         width: 100%;
+        padding: 20px;
     }
 }
