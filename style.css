@@ -54,6 +54,9 @@ body {
     margin: 10px;
     border-radius: 5px;
 }
+img:hover {
+    transform: scale(1.1);
+}
 
 h1 {
     color: rgb(17, 17, 17);

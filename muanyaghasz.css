@@ -17,6 +17,13 @@ body {
     padding: 0;
 }
 
+.tarolo {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .header {
     padding: 30px;
     text-align: center;
@@ -152,21 +159,29 @@ ul {
 
 @media screen and (max-width: 768px) {
     .fo {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
 
     .grid {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
+    }
+
+    .navok {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .kep img {
+        margin-top: 50px;
     }
 
     .kep {
-        size: 100%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .header {
-        font-size: 20px;
+        font-size: 24px;
         padding: 10px;
     }
 
@@ -175,15 +190,32 @@ ul {
     }
 
     h1 {
-        font-size: 24px;
-
+        font-size: 22px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    ul {
+        font-size: 18px;
+    }
+
+    .navok {
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+
+    .grid-kep img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .kep img {
+        margin-top: 30px;
     }
 
     .grid-kep {
-        height: 160px;
+        width: 100%;
     }
 }
