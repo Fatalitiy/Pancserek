@@ -69,6 +69,11 @@ body {
     text-align: center; 
 }
 
+nav a:hover {
+    color: #000000;
+    
+}
+
 .section {
     margin-bottom: 40px;
 }
