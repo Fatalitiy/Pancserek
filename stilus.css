@@ -8,17 +8,16 @@ body {
     background-attachment: fixed;
     color: white;
     min-height: 100vh;
-    margin: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: 0;
 }
 
 .tarolo {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 20px;
 }
+
 
 .header {
     padding: 15px;
